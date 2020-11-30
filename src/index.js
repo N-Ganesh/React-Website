@@ -27,7 +27,7 @@ const Index = () => {
     test_event_code: "TEST65559",
   };
   const sendFbPostRequest = async () => {
-    const url = `https://graph.facebook.com/v9.0/218089216368019/events?access_token={EAAEa64vjbq4BANMqx1JD6w2tVfP1oriTFCZAmU51FDRAh6DNJrEd4kBfp9div6okpWepKPV3VW6JsGbww0Ce0JIJVWIink37DXJPO6uSf3WMK5nWLL1JceiYdxEM1ZClKJ7iD2SNjxHP03InoZA5F3T7YieSdVZB96zUf8n59GTwAGSonS2W}`;
+    const url = `https://graph.facebook.com/v9.0/218089216368019/events?access_token=EAAEa64vjbq4BANMqx1JD6w2tVfP1oriTFCZAmU51FDRAh6DNJrEd4kBfp9div6okpWepKPV3VW6JsGbww0Ce0JIJVWIink37DXJPO6uSf3WMK5nWLL1JceiYdxEM1ZClKJ7iD2SNjxHP03InoZA5F3T7YieSdVZB96zUf8n59GTwAGSonS2W`;
     const response = await fetch(url, {
       method: "post",
       headers: {
