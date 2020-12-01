@@ -33,7 +33,7 @@ const Index = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: body,
+      data: body,
     });
 
     const resData = await response.json();
